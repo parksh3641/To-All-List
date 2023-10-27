@@ -17,13 +17,13 @@ class ToDoListViewViewModel:ObservableObject{
         self.userId = userId
     }
     
-    func delete(id:String){
+    func delete(id: String) {
         let db = Firestore.firestore()
         
         db.collection("users")
-            .document()
-            .collection()
-            .document()
+            .document(userId)
+            .collection("todos")
+            .document(id)
             .delete()
     }
 }

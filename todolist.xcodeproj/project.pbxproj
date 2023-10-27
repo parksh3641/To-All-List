@@ -202,8 +202,8 @@
 		2CA4930B2AEB7D250067A02C /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				2CA492C32AEB7A660067A02C /* Assets.xcassets */,
 				2CA493042AEB7BB40067A02C /* GoogleService-Info.plist */,
+				2CA492C32AEB7A660067A02C /* Assets.xcassets */,
 				2CA492BF2AEB7A650067A02C /* todolistApp.swift */,
 				2CA4932E2AEBA3760067A02C /* Encodable.swift */,
 			);
@@ -474,6 +474,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -503,6 +504,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -31,7 +31,7 @@ struct HeaderView: View {
                     .font(.system(size: 30))
                     .foregroundColor(.white)
             }
-            .padding(.top,80)
+            .padding(.top,150)
         }
         .frame(width:UIScreen.main.bounds.width * 3,height: 350)
         .offset(y:-150)
