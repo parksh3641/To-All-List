@@ -20,9 +20,26 @@ struct CalendarView:UIViewRepresentable{
         return view
     }
     
+    func makeCoordinator() -> Coordinator{
+        Coordinator(parent: self, eventStore: _eventStore)
+    }
+    
+    
     func updateUIView(_ uiView: UICalendarView, context: Context) {
         
     }
     
-    Class Coordinator: NSObject, UICalendar
+    Class Coordinator: NSObject, UICalendarViewDelegate{
+        var parent:CalendarView
+        @ObservedObject var eventStore:EventStore
+        init(interval: DateInterval, eventStore: ObservedObject<EventStore>) {
+            self.interval = interval
+            self.eventScore = eventScore
+        }
+        
+        func calendarView(_ calendarView: UICalendarView,
+                          decorationFor dateComponents: DateComponents) -> UICalendarView.Decoration?{
+            return nil
+        }
+    }
 }

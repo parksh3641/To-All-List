@@ -27,7 +27,7 @@ struct ListViewRow: View {
             Button {
                 formType = .update(event)
             } label: {
-                Text("Edit")
+                Text("수정")
             }
             .buttonStyle(.bordered)
         }
@@ -35,8 +35,5 @@ struct ListViewRow: View {
 }
 
 #Preview {
-    static let event = Event(eventType: .social, date: Date(), note: "Let's party")
-   static var previews: some View {
-       ListViewRow(event: event, formType: .constant(.new))
-   }
+    ListViewRow(event: Event(eventType: .모임, date: Date(), note: "파티 참여"), formType: .constant(.new))
 }

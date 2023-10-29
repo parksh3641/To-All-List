@@ -11,14 +11,33 @@ struct MemoView: View {
     
     @EnvironmentObject var store : MemoStore
     
+    @State private var showComposer : Bool = false
     
     var body: some View {
         NavigationView{
-            List(store.list){memo in 
-                MemoCell(memo: memo)
+            List{
+                ForEach(store.list){memo in
+                    NavigationLink{
+                        DetailView(memo: memo)
+                    }label: {
+                        MemoCell(memo: memo)
+                    }
+                }
+                .onDelete(perform: store.delete)
             }
-            .navigationTitle("내 메모")
+            .navigationTitle("메모장")
+            .toolbar{
+                Button{
+                    showComposer = true
+                }label: {
+                    Image(systemName: "plus")
+                }
+            }
+            .sheet(isPresented: $showComposer){
+                ComposeView()
+            }
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 #Preview {

@@ -17,11 +17,11 @@ struct EventFormView: View {
             VStack {
                 Form {
                     DatePicker(selection: $viewModel.date) {
-                        Text("Date and Time")
+                        Text("날짜와 시간")
                     }
-                    TextField("Note", text: $viewModel.note, axis: .vertical)
+                    TextField("메모", text: $viewModel.note, axis: .vertical)
                         .focused($focus, equals: true)
-                    Picker("Event Type", selection: $viewModel.eventType) {
+                    Picker("이벤트 종류", selection: $viewModel.eventType) {
                         ForEach(Event.EventType.allCases) {eventType in
                             Text(eventType.icon + " " + eventType.rawValue.capitalized)
                                 .tag(eventType)
@@ -47,7 +47,7 @@ struct EventFormView: View {
                             }
                             dismiss()
                         } label: {
-                            Text(viewModel.updating ? "Update Event" : "Add Event")
+                            Text(viewModel.updating ? "이벤트 수정" : "새로운 이벤트")
                         }
                         .buttonStyle(.borderedProminent)
                         .disabled(viewModel.incomplete)
@@ -58,7 +58,7 @@ struct EventFormView: View {
                     }
                 }
             }
-            .navigationTitle(viewModel.updating ? "Update" : "New Event")
+            .navigationTitle(viewModel.updating ? "업데이트" : "새로운 이벤트")
             .onAppear {
                 focus = true
             }
@@ -69,5 +69,5 @@ struct EventFormView: View {
 #Preview {
     EventFormView(viewModel: EventFormViewModel())
         .environmentObject(EventStore())
-    }
 }
+

@@ -19,7 +19,6 @@ struct HeaderView: View {
         ZStack{
             RoundedRectangle(cornerRadius: 0)
                 .foregroundColor(background)
-                .rotationEffect(Angle(degrees: angle))
             
             VStack{
                 Text(title)
@@ -31,10 +30,10 @@ struct HeaderView: View {
                     .font(.system(size: 30))
                     .foregroundColor(.white)
             }
-            .padding(.top,150)
+            .padding(.top,180)
         }
         .frame(width:UIScreen.main.bounds.width * 3,height: 350)
-        .offset(y:-150)
+        .offset(y:-200)
     }
 }
 

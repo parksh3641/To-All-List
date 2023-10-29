@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C3A6CCC2AEE1C4700FAFE63 /* StartTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CCB2AEE1C4700FAFE63 /* StartTabView.swift */; };
+		2C3A6CCE2AEE1C8200FAFE63 /* EventStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CCD2AEE1C8200FAFE63 /* EventStore.swift */; };
+		2C3A6CD02AEE1CB600FAFE63 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CCF2AEE1CB600FAFE63 /* Event.swift */; };
+		2C3A6CD22AEE1D7600FAFE63 /* EventsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CD12AEE1D7600FAFE63 /* EventsListView.swift */; };
+		2C3A6CD42AEE1D9D00FAFE63 /* ListViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CD32AEE1D9D00FAFE63 /* ListViewRow.swift */; };
+		2C3A6CD62AEE1DCE00FAFE63 /* EventFormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CD52AEE1DCE00FAFE63 /* EventFormViewModel.swift */; };
+		2C3A6CD82AEE1DD600FAFE63 /* EventFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CD72AEE1DD600FAFE63 /* EventFormView.swift */; };
+		2C3A6CDA2AEE1DF900FAFE63 /* EventFormType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CD92AEE1DF900FAFE63 /* EventFormType.swift */; };
+		2C3A6CDE2AEE1E7000FAFE63 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CDD2AEE1E7000FAFE63 /* CalendarView.swift */; };
+		2C3A6CE02AEE1E8800FAFE63 /* DaysEvents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CDF2AEE1E8800FAFE63 /* DaysEvents.swift */; };
+		2C3A6CE22AEE1EAE00FAFE63 /* EventsCalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CE12AEE1EAE00FAFE63 /* EventsCalendarView.swift */; };
+		2C3A6CE52AEE1F3400FAFE63 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CE42AEE1F3400FAFE63 /* Date+Extension.swift */; };
+		2C3A6CE82AEE24FC00FAFE63 /* StopWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CE72AEE24FC00FAFE63 /* StopWatchView.swift */; };
+		2C3A6CEA2AEE258D00FAFE63 /* StopWatchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C3A6CE92AEE258D00FAFE63 /* StopWatchViewModel.swift */; };
 		2CA492C02AEB7A650067A02C /* todolistApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA492BF2AEB7A650067A02C /* todolistApp.swift */; };
 		2CA492C22AEB7A650067A02C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA492C12AEB7A650067A02C /* MainView.swift */; };
 		2CA492C42AEB7A660067A02C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CA492C32AEB7A660067A02C /* Assets.xcassets */; };
@@ -57,9 +71,34 @@
 		2CA4932B2AEB80630067A02C /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4932A2AEB80630067A02C /* HeaderView.swift */; };
 		2CA4932D2AEB8B1F0067A02C /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4932C2AEB8B1F0067A02C /* TLButton.swift */; };
 		2CA4932F2AEBA3760067A02C /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4932E2AEBA3760067A02C /* Encodable.swift */; };
+		2CA493312AED2F340067A02C /* MemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA493302AED2F340067A02C /* MemoView.swift */; };
+		2CA493332AED2F450067A02C /* Memo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA493322AED2F450067A02C /* Memo.swift */; };
+		2CA493352AED2FA10067A02C /* MemoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA493342AED2FA10067A02C /* MemoStore.swift */; };
+		2CA493372AED34B60067A02C /* MemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA493362AED34B60067A02C /* MemoCell.swift */; };
+		2CA4933A2AED355F0067A02C /* ComposeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA493392AED355F0067A02C /* ComposeView.swift */; };
+		2CA4933C2AED385F0067A02C /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4933B2AED385F0067A02C /* DetailView.swift */; };
+		2CA493402AED3F8A0067A02C /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA4933F2AED3F8A0067A02C /* Task.swift */; };
+		2CA493432AED40A30067A02C /* +View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA493422AED40A30067A02C /* +View.swift */; };
+		2CA493452AED41320067A02C /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA493442AED41320067A02C /* TaskView.swift */; };
+		2CA493472AED41990067A02C /* DateExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CA493462AED41990067A02C /* DateExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C3A6CCB2AEE1C4700FAFE63 /* StartTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartTabView.swift; sourceTree = "<group>"; };
+		2C3A6CCD2AEE1C8200FAFE63 /* EventStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventStore.swift; sourceTree = "<group>"; };
+		2C3A6CCF2AEE1CB600FAFE63 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		2C3A6CD12AEE1D7600FAFE63 /* EventsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsListView.swift; sourceTree = "<group>"; };
+		2C3A6CD32AEE1D9D00FAFE63 /* ListViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewRow.swift; sourceTree = "<group>"; };
+		2C3A6CD52AEE1DCE00FAFE63 /* EventFormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormViewModel.swift; sourceTree = "<group>"; };
+		2C3A6CD72AEE1DD600FAFE63 /* EventFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormView.swift; sourceTree = "<group>"; };
+		2C3A6CD92AEE1DF900FAFE63 /* EventFormType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFormType.swift; sourceTree = "<group>"; };
+		2C3A6CDD2AEE1E7000FAFE63 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		2C3A6CDF2AEE1E8800FAFE63 /* DaysEvents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysEvents.swift; sourceTree = "<group>"; };
+		2C3A6CE12AEE1EAE00FAFE63 /* EventsCalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventsCalendarView.swift; sourceTree = "<group>"; };
+		2C3A6CE42AEE1F3400FAFE63 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		2C3A6CE72AEE24FC00FAFE63 /* StopWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchView.swift; sourceTree = "<group>"; };
+		2C3A6CE92AEE258D00FAFE63 /* StopWatchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopWatchViewModel.swift; sourceTree = "<group>"; };
+		2C3A6CEB2AEE294F00FAFE63 /* todolist.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = todolist.entitlements; sourceTree = "<group>"; };
 		2CA492BC2AEB7A650067A02C /* todolist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = todolist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CA492BF2AEB7A650067A02C /* todolistApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = todolistApp.swift; sourceTree = "<group>"; };
 		2CA492C12AEB7A650067A02C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -84,6 +123,16 @@
 		2CA4932A2AEB80630067A02C /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		2CA4932C2AEB8B1F0067A02C /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		2CA4932E2AEBA3760067A02C /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		2CA493302AED2F340067A02C /* MemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoView.swift; sourceTree = "<group>"; };
+		2CA493322AED2F450067A02C /* Memo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Memo.swift; sourceTree = "<group>"; };
+		2CA493342AED2FA10067A02C /* MemoStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoStore.swift; sourceTree = "<group>"; };
+		2CA493362AED34B60067A02C /* MemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoCell.swift; sourceTree = "<group>"; };
+		2CA493392AED355F0067A02C /* ComposeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeView.swift; sourceTree = "<group>"; };
+		2CA4933B2AED385F0067A02C /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2CA4933F2AED3F8A0067A02C /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		2CA493422AED40A30067A02C /* +View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "+View.swift"; sourceTree = "<group>"; };
+		2CA493442AED41320067A02C /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		2CA493462AED41990067A02C /* DateExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +173,65 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C3A6CC32AEE18E100FAFE63 /* Calender */ = {
+			isa = PBXGroup;
+			children = (
+				2C3A6CE32AEE1EE300FAFE63 /* ListView Tab */,
+				2C3A6CDC2AEE1E5900FAFE63 /* CalendarViewTab */,
+				2C3A6CDB2AEE1E4B00FAFE63 /* EditUpdateView */,
+				2C3A6CCB2AEE1C4700FAFE63 /* StartTabView.swift */,
+			);
+			path = Calender;
+			sourceTree = "<group>";
+		};
+		2C3A6CC82AEE1BE600FAFE63 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				2C3A6CCD2AEE1C8200FAFE63 /* EventStore.swift */,
+				2C3A6CCF2AEE1CB600FAFE63 /* Event.swift */,
+				2C3A6CE42AEE1F3400FAFE63 /* Date+Extension.swift */,
+			);
+			path = Calendar;
+			sourceTree = "<group>";
+		};
+		2C3A6CDB2AEE1E4B00FAFE63 /* EditUpdateView */ = {
+			isa = PBXGroup;
+			children = (
+				2C3A6CD52AEE1DCE00FAFE63 /* EventFormViewModel.swift */,
+				2C3A6CD72AEE1DD600FAFE63 /* EventFormView.swift */,
+				2C3A6CD92AEE1DF900FAFE63 /* EventFormType.swift */,
+			);
+			path = EditUpdateView;
+			sourceTree = "<group>";
+		};
+		2C3A6CDC2AEE1E5900FAFE63 /* CalendarViewTab */ = {
+			isa = PBXGroup;
+			children = (
+				2C3A6CDD2AEE1E7000FAFE63 /* CalendarView.swift */,
+				2C3A6CDF2AEE1E8800FAFE63 /* DaysEvents.swift */,
+				2C3A6CE12AEE1EAE00FAFE63 /* EventsCalendarView.swift */,
+			);
+			path = CalendarViewTab;
+			sourceTree = "<group>";
+		};
+		2C3A6CE32AEE1EE300FAFE63 /* ListView Tab */ = {
+			isa = PBXGroup;
+			children = (
+				2C3A6CD12AEE1D7600FAFE63 /* EventsListView.swift */,
+				2C3A6CD32AEE1D9D00FAFE63 /* ListViewRow.swift */,
+			);
+			path = "ListView Tab";
+			sourceTree = "<group>";
+		};
+		2C3A6CE62AEE24EF00FAFE63 /* StopWatch */ = {
+			isa = PBXGroup;
+			children = (
+				2C3A6CE72AEE24FC00FAFE63 /* StopWatchView.swift */,
+				2C3A6CE92AEE258D00FAFE63 /* StopWatchViewModel.swift */,
+			);
+			path = StopWatch;
+			sourceTree = "<group>";
+		};
 		2CA492B32AEB7A650067A02C = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +251,7 @@
 		2CA492BE2AEB7A650067A02C /* todolist */ = {
 			isa = PBXGroup;
 			children = (
+				2C3A6CEB2AEE294F00FAFE63 /* todolist.entitlements */,
 				2CA4930B2AEB7D250067A02C /* Others */,
 				2CA493082AEB7C9F0067A02C /* Models */,
 				2CA493072AEB7C820067A02C /* ViewModels */,
@@ -163,6 +272,10 @@
 		2CA493062AEB7C780067A02C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2C3A6CE62AEE24EF00FAFE63 /* StopWatch */,
+				2C3A6CC32AEE18E100FAFE63 /* Calender */,
+				2CA493412AED40990067A02C /* Task */,
+				2CA493382AED35510067A02C /* Memo */,
 				2CA492C12AEB7A650067A02C /* MainView.swift */,
 				2CA4930C2AEB7D550067A02C /* ProfileView.swift */,
 				2CA4930E2AEB7D650067A02C /* NewItemView.swift */,
@@ -193,6 +306,9 @@
 		2CA493082AEB7C9F0067A02C /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				2C3A6CC82AEE1BE600FAFE63 /* Calendar */,
+				2CA4933E2AED3F830067A02C /* Task */,
+				2CA4933D2AED3F790067A02C /* Memo */,
 				2CA493182AEB7E050067A02C /* User.swift */,
 				2CA4931A2AEB7E0F0067A02C /* ToDoListItem.swift */,
 			);
@@ -208,6 +324,44 @@
 				2CA4932E2AEBA3760067A02C /* Encodable.swift */,
 			);
 			path = Others;
+			sourceTree = "<group>";
+		};
+		2CA493382AED35510067A02C /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				2CA493302AED2F340067A02C /* MemoView.swift */,
+				2CA493362AED34B60067A02C /* MemoCell.swift */,
+				2CA493392AED355F0067A02C /* ComposeView.swift */,
+				2CA4933B2AED385F0067A02C /* DetailView.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		2CA4933D2AED3F790067A02C /* Memo */ = {
+			isa = PBXGroup;
+			children = (
+				2CA493322AED2F450067A02C /* Memo.swift */,
+				2CA493342AED2FA10067A02C /* MemoStore.swift */,
+			);
+			path = Memo;
+			sourceTree = "<group>";
+		};
+		2CA4933E2AED3F830067A02C /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				2CA4933F2AED3F8A0067A02C /* Task.swift */,
+				2CA493422AED40A30067A02C /* +View.swift */,
+				2CA493462AED41990067A02C /* DateExtensions.swift */,
+			);
+			path = Task;
+			sourceTree = "<group>";
+		};
+		2CA493412AED40990067A02C /* Task */ = {
+			isa = PBXGroup;
+			children = (
+				2CA493442AED41320067A02C /* TaskView.swift */,
+			);
+			path = Task;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -313,26 +467,50 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CA4933A2AED355F0067A02C /* ComposeView.swift in Sources */,
 				2CA493112AEB7D760067A02C /* LoginView.swift in Sources */,
+				2C3A6CD22AEE1D7600FAFE63 /* EventsListView.swift in Sources */,
 				2CA4932B2AEB80630067A02C /* HeaderView.swift in Sources */,
 				2CA4930D2AEB7D550067A02C /* ProfileView.swift in Sources */,
+				2C3A6CD82AEE1DD600FAFE63 /* EventFormView.swift in Sources */,
 				2CA493272AEB7E700067A02C /* RegisterViewViewModel.swift in Sources */,
+				2C3A6CE02AEE1E8800FAFE63 /* DaysEvents.swift in Sources */,
+				2C3A6CD62AEE1DCE00FAFE63 /* EventFormViewModel.swift in Sources */,
 				2CA4931D2AEB7E300067A02C /* MainViewViewModel.swift in Sources */,
 				2CA492C22AEB7A650067A02C /* MainView.swift in Sources */,
+				2C3A6CDE2AEE1E7000FAFE63 /* CalendarView.swift in Sources */,
+				2CA4933C2AED385F0067A02C /* DetailView.swift in Sources */,
+				2C3A6CD42AEE1D9D00FAFE63 /* ListViewRow.swift in Sources */,
+				2CA493352AED2FA10067A02C /* MemoStore.swift in Sources */,
 				2CA493172AEB7DD20067A02C /* ToDoListView.swift in Sources */,
+				2CA493312AED2F340067A02C /* MemoView.swift in Sources */,
+				2CA493472AED41990067A02C /* DateExtensions.swift in Sources */,
 				2CA4932D2AEB8B1F0067A02C /* TLButton.swift in Sources */,
+				2C3A6CCE2AEE1C8200FAFE63 /* EventStore.swift in Sources */,
+				2C3A6CCC2AEE1C4700FAFE63 /* StartTabView.swift in Sources */,
 				2CA4931F2AEB7E3C0067A02C /* ProfileViewViewModel.swift in Sources */,
 				2CA493132AEB7D900067A02C /* RegisterView.swift in Sources */,
 				2CA493192AEB7E050067A02C /* User.swift in Sources */,
+				2C3A6CEA2AEE258D00FAFE63 /* StopWatchViewModel.swift in Sources */,
+				2C3A6CE82AEE24FC00FAFE63 /* StopWatchView.swift in Sources */,
+				2C3A6CD02AEE1CB600FAFE63 /* Event.swift in Sources */,
+				2CA493432AED40A30067A02C /* +View.swift in Sources */,
 				2CA493152AEB7DBD0067A02C /* ToDoListitemView.swift in Sources */,
+				2C3A6CE52AEE1F3400FAFE63 /* Date+Extension.swift in Sources */,
 				2CA493212AEB7E490067A02C /* ToDoListViewViewModel.swift in Sources */,
 				2CA493252AEB7E640067A02C /* LoginViewViewModel.swift in Sources */,
 				2CA492C02AEB7A650067A02C /* todolistApp.swift in Sources */,
 				2CA4931B2AEB7E0F0067A02C /* ToDoListItem.swift in Sources */,
+				2C3A6CE22AEE1EAE00FAFE63 /* EventsCalendarView.swift in Sources */,
+				2C3A6CDA2AEE1DF900FAFE63 /* EventFormType.swift in Sources */,
+				2CA493452AED41320067A02C /* TaskView.swift in Sources */,
+				2CA493332AED2F450067A02C /* Memo.swift in Sources */,
 				2CA4930F2AEB7D650067A02C /* NewItemView.swift in Sources */,
 				2CA493232AEB7E580067A02C /* NewItemViewViewModel.swift in Sources */,
 				2CA493292AEB7E7D0067A02C /* ToDoListItemViewViewModel.swift in Sources */,
 				2CA4932F2AEBA3760067A02C /* Encodable.swift in Sources */,
+				2CA493402AED3F8A0067A02C /* Task.swift in Sources */,
+				2CA493372AED34B60067A02C /* MemoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,7 +569,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -448,7 +626,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -463,24 +641,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = todolist/todolist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"todolist/Preview Content\"";
 				DEVELOPMENT_TEAM = MWMTW57K89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do All List";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swift.todolist;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spnk.doitnow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -493,24 +673,26 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = todolist/todolist.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"todolist/Preview Content\"";
 				DEVELOPMENT_TEAM = MWMTW57K89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "To Do List";
+				INFOPLIST_KEY_CFBundleDisplayName = "To Do All List";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.lifestyle";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.swift.todolist;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spnk.doitnow;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

@@ -40,8 +40,8 @@ struct NewItemView: View {
             }
             .alert(isPresented: $viewModel.showAlert){
                 Alert(
-                    title: Text("에러"),
-                    message: Text("모든 빈칸을 채우고 오늘 날짜 또는 이후를 선택해주세요"))
+                    title: Text("알림"),
+                    message: Text("빈칸을 모두 채우고 오늘 날짜 또는 이후 날짜를 선택해주세요"))
             }
         }
     }

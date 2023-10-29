@@ -15,43 +15,54 @@ struct LoginView: View {
     var body: some View {
         NavigationView{
             VStack{
-                HeaderView(title: "할 일 목록", subtitle: "무엇이든 적어보세요", angle: 15, background: .pink)
+                HeaderView(title: "To Do All List", subtitle: "일상을 기록하세요", angle: 0, background: .pink)
                 
-                Form{
+                VStack{
                     if !viewModel.errorMessage.isEmpty{
                         Text(viewModel.errorMessage)
                             .foregroundColor(.red)
+                            .padding(.horizontal,10)
                     }
                     
                     TextField("이메일",text : $viewModel.email)
-                        .textFieldStyle(DefaultTextFieldStyle())
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
                         .autocapitalization(.none)
                         .autocorrectionDisabled()
+                        .padding(.horizontal,10)
                     
                     TextField("비밀번호",text : $viewModel.password)
-                        .textFieldStyle(DefaultTextFieldStyle())
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
                         .autocorrectionDisabled()
+                        .padding(.horizontal,10)
+                    
                     
                     TLButton(title: "로그인", background: .blue
                     ){
                         viewModel.login()
                     }
-                    .padding()
-                
-                }
-                .offset(y:-100)
-                
-                // Create Account
-                VStack{
+                    .padding(.horizontal,10)
+                    .frame(height: 50.0)
+                    
+                    TLButton(title: "애플 로그인", background: .black
+                    ){
+                        viewModel.appleLogin()
+                    }
+                    .padding(.horizontal,10)
+                    .frame(height: 50.0)
+                    
+                    
+                    Spacer()
+                    
                     Text("새로운 계정이 필요하세요?")
                     NavigationLink("새로운 계정 생성",
                                    destination:RegisterView())
+                    
+                    Spacer()
                 }
-                .padding(.bottom, 50)
-                
-                Spacer()
+                .offset(y:-200)
             }
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

@@ -46,6 +46,7 @@ struct ToDoListView: View {
                 NewItemView(newItemPresented: $viewModel.showingNewItemView)
             })
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 }
 

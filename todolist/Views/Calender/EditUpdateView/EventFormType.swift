@@ -13,9 +13,9 @@ enum EventFormType: Identifiable, View {
     var id: String {
         switch self {
         case .new:
-            return "new"
+            return "신규"
         case .update:
-            return "update"
+            return "업데이트"
         }
     }
 

@@ -24,7 +24,7 @@ struct EventsListView: View {
                     }
                 }
             }
-            .navigationTitle("Calendar Events")
+            .navigationTitle("달력 이벤트")
             .sheet(item: $formType) { $0 }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
